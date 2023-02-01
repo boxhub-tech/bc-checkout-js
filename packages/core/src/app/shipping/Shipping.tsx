@@ -179,6 +179,10 @@ class Shipping extends Component<ShippingProps & WithCheckoutShippingProps, Ship
                         updateAddress={updateShippingAddress}
                         useFloatingLabel={useFloatingLabel}
                     />
+                    <div>
+                        <p className=""><b>(*)  Tiltbed truck will deliver to your location, and will slide</b></p>
+                        <p className=""><b>(**) Flatbed truck will deliver to your location, but you will need to provide and operate the equipment to offload the container from the truck.</b></p>
+                    </div>
                 </div>
             </AddressFormSkeleton>
         );

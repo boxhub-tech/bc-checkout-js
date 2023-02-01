@@ -36,6 +36,8 @@ class ShippingFormFooter extends PureComponent<ShippingFormFooterProps> {
                         <>
                             <Legend>
                                 <TranslatedString id="shipping.shipping_method_label" />
+                                &nbsp;
+                                <a href="https://boxhub.com/blog/what-to-expect-from-your-shipping-container-delivery/" target="_blank">Container Delivery Guide</a>
                             </Legend>
 
                             {cartHasChanged && (
